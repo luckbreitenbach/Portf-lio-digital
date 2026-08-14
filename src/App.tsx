@@ -30,14 +30,14 @@ type AdminState = {
 const ALLOWED_ADMIN_EMAIL = 'vendascomp55@gmail.com';
 
 const defaultAdminState: AdminState = {
-  name: 'NotaCerta',
+  name: 'Portfólio digital Lucas',
   role: 'Plataforma de gestão e automação para negócios',
-  bio: 'A NotaCerta é uma solução digital pensada para modernizar processos, centralizar informações e melhorar a operação de empresas com praticidade, inteligência e tecnologia.',
+  bio: 'O Portfólio digital Lucas é uma solução digital pensada para modernizar processos, centralizar informações e melhorar a operação de empresas com praticidade, inteligência e tecnologia.',
   email: 'vendascomp55@gmail.com',
   location: 'Brasil',
   phone: '+55 (11) 99999-9999',
   heroTitle: 'Tecnologia que organiza, automatiza e acelera o crescimento do seu negócio.',
-  heroSubtitle: 'A NotaCerta combina experiência digital com inovação em desenvolvimento web e aplicações para entregar soluções mais ágeis, eficientes e escaláveis.',
+  heroSubtitle: 'O Portfólio digital Lucas combina experiência digital com inovação em desenvolvimento web e aplicações para entregar soluções mais ágeis, eficientes e escaláveis.',
   ctaPrimary: 'Conhecer a solução',
   ctaSecondary: 'Falar com a equipe',
   projects: [
@@ -54,7 +54,7 @@ const STORAGE_KEY = 'portfolio-admin-state';
 const ACCOUNTS_KEY = 'portfolio-accounts';
 const ACTIVE_ACCOUNT_KEY = 'portfolio-active-user';
 const DEFAULT_ACCOUNTS: Account[] = [{
-  name: 'NotaCerta',
+  name: 'Portfólio digital Lucas',
   email: ALLOWED_ADMIN_EMAIL,
   password: 'notacerta123',
 }];
@@ -341,7 +341,7 @@ function App() {
           <div className="container contact-box">
             <div>
               <p className="section-tag">Contato</p>
-              <h2>Sou estudante de Análise e Desenvolvimento de Sistemas e estou constantemente construindo projetos, aprofundando meus conhecimentos e buscando novos desafios para evoluir como desenvolvedor.</h2>
+              <h2>Sou estudante de Análise e Desenvolvimento de Sistemas e estou constantemente construindo projetos, aprofundando meus conhecimentos e buscando novos desafios para evoluir como [...]
             </div>
             <div className="contact-info">
               <p>{adminState.email}</p>
