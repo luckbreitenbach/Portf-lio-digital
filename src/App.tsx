@@ -341,7 +341,7 @@ function App() {
           <div className="container contact-box">
             <div>
               <p className="section-tag">Contato</p>
-              <h2>Sou estudante de Análise e Desenvolvimento de Sistemas e estou constantemente construindo projetos, aprofundando meus conhecimentos e buscando novos desafios para evoluir como [...]
+              <h2>Sou estudante de Análise e Desenvolvimento de Sistemas e estou constantemente construindo projetos, aprofundando meus conhecimentos e buscando novos desafios para evoluir como profissional.</h2>
             </div>
             <div className="contact-info">
               <p>{adminState.email}</p>
