@@ -31,21 +31,21 @@ const ALLOWED_ADMIN_EMAIL = 'vendascomp55@gmail.com';
 
 const defaultAdminState: AdminState = {
   name: 'Portfólio digital Lucas',
-  role: 'Plataforma de gestão e automação para negócios',
-  bio: 'O Portfólio digital Lucas é uma solução digital pensada para modernizar processos, centralizar informações e melhorar a operação de empresas com praticidade, inteligência e tecnologia.',
+  role: 'Portfólio digital Lucas de Medeiros Breitenbach',
+  bio: 'O Portfólio digital Lucas de Medeiros Breitenbach é uma solução pensada para modernizar processos, centralizar informações e melhorar a operação de projetos e demonstrações de trabalho com praticidade, inteligência e tecnologia.',
   email: 'vendascomp55@gmail.com',
   location: 'Brasil',
   phone: '+55 (11) 99999-9999',
-  heroTitle: 'Tecnologia que organiza, automatiza e acelera o crescimento do seu negócio.',
-  heroSubtitle: 'O Portfólio digital Lucas combina experiência digital com inovação em desenvolvimento web e aplicações para entregar soluções mais ágeis, eficientes e escaláveis.',
+  heroTitle: 'Tecnologia que organiza, automatiza e acelera o crescimento do seu trabalho e portfólio.',
+  heroSubtitle: 'O Portfólio digital Lucas de Medeiros Breitenbach combina experiência digital com inovação em desenvolvimento web e aplicações para entregar soluções mais ágeis, eficientes e bem apresentadas.',
   ctaPrimary: 'Conhecer a solução',
   ctaSecondary: 'Falar com a equipe',
   projects: [
     {
       title: 'Portfólio Lucas Breitenbach',
-      description: 'Sistema de gestão digital para centralizar operações, melhorar processos e reduzir retrabalho.',
+      description: 'Sistema de apresentação e documentação de projetos focado em proporcionar clareza sobre entregas e competências.',
       stack: ['React', 'TypeScript', 'Java', 'JavaScript'],
-      details: 'Projeto focado em performance, organização e experiência de uso para negócios que querem crescer com tecnologia.',
+      details: 'Projeto focado em performance, organização e experiência de uso para demonstrar meus trabalhos e habilidades técnicas.',
     },
   ],
 };
